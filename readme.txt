@@ -11,7 +11,7 @@ Provides title suggestions while typing a search query, using the Google Suggest
 == Description ==
 
 This plugin uses an abstraction of jQueryUI's autocomplete widget that interacts with the unofficial/undocumented Google Suggest API.
-Probs go to Haochi Chen.
+Props go to Haochi Chen.
 
 It adds an AJAX call to the search form, returning matches for the current search query.
 There is no change of template files necessary as this plugin hooks in the existing WordPress API to unfold its magic.
