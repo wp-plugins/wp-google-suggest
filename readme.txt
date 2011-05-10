@@ -6,7 +6,7 @@ Requires at least: 3.0
 Tested up to: 3.1.2
 Stable tag: 1.0
 
-Provides title suggestions while typing a search query, using the Google Suggest API.
+Provides suggestions while typing a search query, using the Google Suggest API.
 
 == Description ==
 
