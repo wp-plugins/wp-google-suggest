@@ -2,9 +2,9 @@
 Contributors: kobenland
 Tags: search, AJAX, jQuery, Google, Google suggest
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LYYF6RDJ5A2EA
-Requires at least: 3.0
-Tested up to: 3.1.2
-Stable tag: 1.0
+Requires at least: 3.3
+Tested up to: 3.3.1
+Stable tag: 1.1
 
 Provides suggestions while typing a search query, using the Google Suggest API.
 
@@ -30,6 +30,11 @@ None asked yet.
 
 
 == Changelog ==
+
+= 1.1 =
+* Updated Google Suggest Script
+* Relies on Core for JavaScript bootstrap, so Version 3.3 is required
+* Tested up to WordPress 3.3.1
 
 = 1.0 =
 * Initial Release
