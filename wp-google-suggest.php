@@ -1,6 +1,6 @@
 <?php
 /** wp-google-suggest.php
- * 
+ *
  * Plugin Name:	WP Google Suggest
  * Plugin URI:	http://www.obenlands.de/en/portfolio/wp-google-suggest/?utm_source=wordpress&utm_medium=plugin&utm_campaign=wp-google-suggest
  * Description:	Uses the Google Suggest API to suggest related search terms
@@ -27,11 +27,11 @@ class Obenland_Wp_Google_Suggest extends Obenland_Wp_Plugins {
 	
 	/**
 	 * Constructor
-	 * 
+	 *
 	 * @author	Konstantin Obenland
 	 * @since	1.0 - 10.05.2011
 	 * @access	public
-	 * 
+	 *
 	 * @return	Obenland_Wp_Google_Suggest
 	 */
 	public function __construct() {
@@ -57,22 +57,22 @@ class Obenland_Wp_Google_Suggest extends Obenland_Wp_Plugins {
 				&$this,
 				'print_styles'
 			));
-		}		
+		}
 	}
 	
 	
 	/**
 	 * Registers the script and stylesheet
-	 * 
+	 *
 	 * The scripts and stylesheets can easilz be deregeistered be calling
 	 * <code>wp_deregister_script( 'wp-search-suggest' );</code> or
 	 * <code>wp_deregister_style( 'wp-search-suggest' );</code> on the init
 	 * hook
-	 * 
+	 *
 	 * @author	Konstantin Obenland
 	 * @since	1.0 - 10.05.2011
 	 * @access	public
-	 * 
+	 *
 	 * @return	void
 	 */
 	public function register_scripts_styles() {
@@ -80,7 +80,7 @@ class Obenland_Wp_Google_Suggest extends Obenland_Wp_Plugins {
 
 		wp_enqueue_script(
 			'jquery-ui',
-			'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js', 
+			'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js',
 			array('jquery'),
 			'1.8.6',
 			true
@@ -105,11 +105,11 @@ class Obenland_Wp_Google_Suggest extends Obenland_Wp_Plugins {
 	
 	/**
 	 * Enqueues the script
-	 * 
+	 *
 	 * @author	Konstantin Obenland
 	 * @since	1.0 - 10.05.2011
 	 * @access	public
-	 * 
+	 *
 	 * @return	void
 	 */
 	public function print_scripts() {
@@ -119,11 +119,11 @@ class Obenland_Wp_Google_Suggest extends Obenland_Wp_Plugins {
 	
 	/**
 	 * Enqueues the stylesheet
-	 * 
+	 *
 	 * @author	Konstantin Obenland
 	 * @since	1.0 - 10.05.2011
 	 * @access	public
-	 * 
+	 *
 	 * @return	void
 	 */
 	public function print_styles() {
