@@ -82,7 +82,7 @@ class Obenland_Wp_Google_Suggest extends Obenland_Wp_Plugins {
 			$this->textdomain,
 			plugins_url("/js/wp-google-suggest$suffix.js", __FILE__),
 			array('jquery-ui-autocomplete'),
-			filemtime($this->plugin_path . "js/wp-google-suggest$suffix.js"),
+			false,
 			true
 		);
 		
@@ -90,7 +90,7 @@ class Obenland_Wp_Google_Suggest extends Obenland_Wp_Plugins {
 			$this->textdomain,
 			plugins_url("/css/wp-google-suggest$suffix.css", __FILE__),
 			array(),
-			filemtime($this->plugin_path . "css/wp-google-suggest$suffix.css")
+			false
 		);
 	}
 	
