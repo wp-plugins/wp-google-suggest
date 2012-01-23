@@ -4,7 +4,7 @@ Tags: search, AJAX, jQuery, Google, Google suggest
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LYYF6RDJ5A2EA
 Requires at least: 3.3
 Tested up to: 3.3.1
-Stable tag: 1.1
+Stable tag: 1.2
 
 Provides suggestions while typing a search query, using the Google Suggest API.
 
@@ -30,6 +30,9 @@ None asked yet.
 
 
 == Changelog ==
+
+= 1.2 =
+* Fixed a bug that prevented the plugin from activating
 
 = 1.1 =
 * Updated Google Suggest Script
