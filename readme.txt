@@ -1,10 +1,10 @@
 === WP Google Suggest ===
-Contributors: kobenland
+Contributors: obenland
 Tags: search, AJAX, jQuery, Google, Google suggest
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LYYF6RDJ5A2EA
 Requires at least: 3.3
-Tested up to: 3.4
-Stable tag: 1.3.1
+Tested up to: 4.0
+Stable tag: 1.4.0
 
 Provides suggestions while typing a search query, using the Google Suggest API.
 
@@ -20,9 +20,9 @@ Make sure the searchform input field has `id="s"` applied, so this plugin can ho
 == Installation ==
 
 1. Download WP Google Suggest.
-2. Unzip the folder into the `/wp-content/plugins/` directory
-3. Activate the plugin through the 'Plugins' menu in WordPress
-4. Make sure the searchform input field has `id="s"`
+2. Unzip the folder into the `/wp-content/plugins/` directory.
+3. Activate the plugin through the 'Plugins' menu in WordPress.
+4. Make sure the searchform input field has `id="s"`.
 
 
 == Frequently Asked Questions ==
@@ -33,20 +33,24 @@ To pick up the user entry, the Plugin needs the search input field to have `id="
 
 == Changelog ==
 
+= 1.4.0 =
+* Maintenance release.
+* Tested with WordPress 3.4.
+
 = 1.3.1 =
-* Redo packaging
+* Redo packaging.
 
 = 1.3.0 =
-* Updated Utility Class
-* Tested with WordPress 3.4
+* Updated Utility Class.
+* Tested with WordPress 3.4.
 
 = 1.2 =
-* Fixed a bug that prevented the plugin from activating
+* Fixed a bug that prevented the plugin from activating.
 
 = 1.1 =
-* Updated Google Suggest Script
-* Relies on Core for JavaScript bootstrap, so Version 3.3 is required
-* Tested up to WordPress 3.3.1
+* Updated Google Suggest Script.
+* Relies on Core for JavaScript bootstrap, so Version 3.3 is required.
+* Tested up to WordPress 3.3.1.
 
 = 1.0 =
-* Initial Release
+* Initial Release.
