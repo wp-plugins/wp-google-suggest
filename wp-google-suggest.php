@@ -4,7 +4,7 @@
  * Plugin Name: WP Google Suggest
  * Plugin URI:  http://en.wp.obenland.it/wp-google-suggest/#utm_source=wordpress&utm_medium=plugin&utm_campaign=wp-google-suggest
  * Description: Uses the Google Suggest API to suggest related search terms.
- * Version:     1.4.0
+ * Version:     1.4.1
  * Author:      Konstantin Obenland
  * Author URI:  http://en.wp.obenland.it/#utm_source=wordpress&utm_medium=plugin&utm_campaign=wp-google-suggest
  * Text Domain: wp-google-suggest
