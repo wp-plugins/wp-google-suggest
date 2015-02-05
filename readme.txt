@@ -3,8 +3,8 @@ Contributors: obenland
 Tags: search, AJAX, jQuery, Google, Google suggest
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LYYF6RDJ5A2EA
 Requires at least: 3.3
-Tested up to: 4.0
-Stable tag: 1.4.0
+Tested up to: 4.1
+Stable tag: 1.4.1
 
 Provides suggestions while typing a search query, using the Google Suggest API.
 
@@ -32,10 +32,13 @@ To pick up the user entry, the Plugin needs the search input field to have `id="
 
 
 == Changelog ==
+= 1.4.1 =
+* Added Serbo-Croatian translation. Props Borisa Druraskovic.
+* Tested with WordPress 4.1.
 
 = 1.4.0 =
 * Maintenance release.
-* Tested with WordPress 3.4.
+* Tested with WordPress 4.0.
 
 = 1.3.1 =
 * Redo packaging.
